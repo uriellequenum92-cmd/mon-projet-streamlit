@@ -1,0 +1,12 @@
+# .streamlit/config.toml
+
+[theme]
+base = "dark"
+primaryColor = "#A78BFA"     # Un violet pastel (Lilas) pour les boutons/sliders
+backgroundColor = "#0F172A"  # Un bleu nuit très sombre (plus moderne que le noir pur)
+secondaryBackgroundColor = "#1E293B" # Pour la sidebar et les cartes
+textColor = "#F8FAFC"
+font = "sans serif"
+
+[server]
+runOnSave = true             # Rafraîchit automatiquement à chaque sauvegarde
